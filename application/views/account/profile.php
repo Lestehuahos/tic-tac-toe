@@ -1,0 +1,1 @@
+Имя: <?php echo $user[0]['name']; ?> <BR>Сыграно матчей: <?php echo $user[0]['matches']; ?><BR>Побед: <?php echo $user[0]['wins']; ?><BR>Поражений: <?php echo $user[0]['defeats']; ?><BR>
