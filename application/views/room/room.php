@@ -22,9 +22,10 @@
 </script>
 
 
-
+<div id=timers>
 <div id="timer"><script>window.setInterval(countdown, 500);</script></div>
 <div id="timer_2"><script>window.setInterval(move_countdown, 500);</script></div>
+<div>
 
 <div id="game"></div>
 

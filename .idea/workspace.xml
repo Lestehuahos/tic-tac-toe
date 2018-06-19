@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12907693-1c2d-401a-a9ea-2ef1974914ad" name="Default" comment="" />
+    <list default="true" id="12907693-1c2d-401a-a9ea-2ef1974914ad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/acl/account.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/room/room.php" afterPath="$PROJECT_DIR$/application/views/room/room.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+    </list>
     <ignored path="tic-tac-toe.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,29 +26,37 @@
     <favorites_list name="tic-tac-toe" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Room.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/models/Room.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="account.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/acl/account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
-              <folding>
-                <marker date="1521979531470" expanded="true" signature="481:548" placeholder="INSERT INTO rooms... " />
-                <marker date="1521979531470" expanded="true" signature="701:736" placeholder="SELECT id FR... rooms" />
-                <marker date="1521979531470" expanded="true" signature="929:981" placeholder="INSERT INTO moves... " />
-                <marker date="1521979531470" expanded="true" signature="1085:1104" placeholder="SELECT * FRO... moves" />
-                <marker date="1521979531470" expanded="true" signature="1244:1296" placeholder="SELECT id FR... room" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/core/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/application/models/Room.php" />
+        <option value="$PROJECT_DIR$/application/acl/account.php" />
       </list>
     </option>
   </component>
@@ -93,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,8 +184,63 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic-tac-toe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic-tac-toe" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic-tac-toe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic-tac-toe" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic-tac-toe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic-tac-toe" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acl" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -181,6 +248,8 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js-jscs-nodeInterpreter" value="D:\OpenServer\modules\nodejs\node.exe" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -198,6 +267,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -222,31 +297,33 @@
       <option name="presentableId" value="Default" />
       <updated>1521979461309</updated>
       <workItem from="1521979465614" duration="98000" />
+      <workItem from="1529397810660" duration="28000" />
+      <workItem from="1529397844849" duration="721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98000" />
+    <option name="totallyTimeSpent" value="847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -269,15 +346,218 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/application/models/Room.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
+        <state relative-caret-position="1139">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
           <folding>
-            <marker date="1521979531470" expanded="true" signature="481:548" placeholder="INSERT INTO rooms... " />
-            <marker date="1521979531470" expanded="true" signature="701:736" placeholder="SELECT id FR... rooms" />
-            <marker date="1521979531470" expanded="true" signature="929:981" placeholder="INSERT INTO moves... " />
-            <marker date="1521979531470" expanded="true" signature="1085:1104" placeholder="SELECT * FRO... moves" />
-            <marker date="1521979531470" expanded="true" signature="1244:1296" placeholder="SELECT id FR... room" />
+            <marker date="1529334143245" expanded="true" signature="298:365" placeholder="INSERT INTO rooms... " />
+            <marker date="1529334143245" expanded="true" signature="600:684" placeholder="INSERT INTO room_members... " />
+            <marker date="1529334143245" expanded="true" signature="836:880" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="1278:1313" placeholder="SELECT id FR... rooms" />
+            <marker date="1529334143245" expanded="true" signature="1767:1844" placeholder="INSERT INTO moves... " />
+            <marker date="1529334143245" expanded="true" signature="2121:2215" placeholder="UPDATE room_... " />
+            <marker date="1529334143245" expanded="true" signature="2657:2731" placeholder="SELECT * FRO... room_members" />
+            <marker date="1529334143245" expanded="true" signature="2937:3076" placeholder="SELECT moves... moves" />
+            <marker date="1529334143245" expanded="true" signature="3348:3422" placeholder="SELECT user_... room_members" />
+            <marker date="1529334143245" expanded="true" signature="3698:3732" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143245" expanded="true" signature="3964:4031" placeholder="SELECT COUNT... " />
+            <marker date="1529334143245" expanded="true" signature="4417:4525" placeholder="UPDATE rooms... " />
+            <marker date="1529334143245" expanded="true" signature="4869:4916" placeholder="SELECT cell moves" />
+            <marker date="1529334143245" expanded="true" signature="5110:5180" placeholder="SELECT cell moves" />
+            <marker date="1529334143245" expanded="true" signature="5477:5547" placeholder="SELECT cell moves" />
+            <marker date="1529334143245" expanded="true" signature="5945:6026" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="6200:6290" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="6543:6624" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="6798:6888" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="7075:7135" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="7252:7312" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="8553:8601" placeholder="UPDATE rooms... " />
+            <marker date="1529334143245" expanded="true" signature="8804:8867" placeholder="SELECT COUNT... moves" />
+            <marker date="1529334143245" expanded="true" signature="9134:9173" placeholder="SELECT statu... rooms" />
+            <marker date="1529334143245" expanded="true" signature="9363:9427" placeholder="SELECT cell moves" />
+            <marker date="1529334143245" expanded="true" signature="9724:9768" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="9946:9978" placeholder="DELETE FROM " />
+            <marker date="1529334143245" expanded="true" signature="10215:10264" placeholder="DELETE FROM " />
+            <marker date="1529334143245" expanded="true" signature="10455:10509" placeholder="SELECT sign room_members" />
+            <marker date="1529334143245" expanded="true" signature="10775:10819" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="11080:11164" placeholder="INSERT INTO room_members... " />
+            <marker date="1529334143245" expanded="true" signature="11379:11460" placeholder="SELECT user_... room_members" />
+            <marker date="1529334143245" expanded="true" signature="11697:11768" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143245" expanded="true" signature="12097:12131" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143245" expanded="true" signature="12426:12516" placeholder="UPDATE rooms... " />
+            <marker date="1529334143245" expanded="true" signature="12757:12791" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143245" expanded="true" signature="14108:14155" placeholder="SELECT * FRO... users" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/room/room.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Room.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1529334143245" expanded="true" signature="298:365" placeholder="INSERT INTO rooms... " />
+            <marker date="1529334143245" expanded="true" signature="600:684" placeholder="INSERT INTO room_members... " />
+            <marker date="1529334143245" expanded="true" signature="836:880" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="1278:1313" placeholder="SELECT id FR... rooms" />
+            <marker date="1529334143245" expanded="true" signature="1767:1844" placeholder="INSERT INTO moves... " />
+            <marker date="1529334143245" expanded="true" signature="2121:2215" placeholder="UPDATE room_... " />
+            <marker date="1529334143245" expanded="true" signature="2657:2731" placeholder="SELECT * FRO... room_members" />
+            <marker date="1529334143245" expanded="true" signature="2937:3076" placeholder="SELECT moves... moves" />
+            <marker date="1529334143245" expanded="true" signature="3348:3422" placeholder="SELECT user_... room_members" />
+            <marker date="1529334143245" expanded="true" signature="3698:3732" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143245" expanded="true" signature="3964:4031" placeholder="SELECT COUNT... " />
+            <marker date="1529334143245" expanded="true" signature="4417:4525" placeholder="UPDATE rooms... " />
+            <marker date="1529334143245" expanded="true" signature="4869:4916" placeholder="SELECT cell moves" />
+            <marker date="1529334143245" expanded="true" signature="5110:5180" placeholder="SELECT cell moves" />
+            <marker date="1529334143245" expanded="true" signature="5477:5547" placeholder="SELECT cell moves" />
+            <marker date="1529334143245" expanded="true" signature="5945:6026" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="6200:6290" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="6543:6624" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="6798:6888" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="7075:7135" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="7252:7312" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="8553:8601" placeholder="UPDATE rooms... " />
+            <marker date="1529334143245" expanded="true" signature="8804:8867" placeholder="SELECT COUNT... moves" />
+            <marker date="1529334143245" expanded="true" signature="9134:9173" placeholder="SELECT statu... rooms" />
+            <marker date="1529334143245" expanded="true" signature="9363:9427" placeholder="SELECT cell moves" />
+            <marker date="1529334143245" expanded="true" signature="9724:9768" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="9946:9978" placeholder="DELETE FROM " />
+            <marker date="1529334143245" expanded="true" signature="10215:10264" placeholder="DELETE FROM " />
+            <marker date="1529334143245" expanded="true" signature="10455:10509" placeholder="SELECT sign room_members" />
+            <marker date="1529334143245" expanded="true" signature="10775:10819" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="11080:11164" placeholder="INSERT INTO room_members... " />
+            <marker date="1529334143245" expanded="true" signature="11379:11460" placeholder="SELECT user_... room_members" />
+            <marker date="1529334143245" expanded="true" signature="11697:11768" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143245" expanded="true" signature="12097:12131" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143245" expanded="true" signature="12426:12516" placeholder="UPDATE rooms... " />
+            <marker date="1529334143245" expanded="true" signature="12757:12791" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143245" expanded="true" signature="14108:14155" placeholder="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Room.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+          <folding>
+            <marker date="1529334143245" expanded="true" signature="298:365" placeholder="INSERT INTO rooms... " />
+            <marker date="1529334143245" expanded="true" signature="600:684" placeholder="INSERT INTO room_members... " />
+            <marker date="1529334143245" expanded="true" signature="836:880" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="1278:1313" placeholder="SELECT id FR... rooms" />
+            <marker date="1529334143245" expanded="true" signature="1767:1844" placeholder="INSERT INTO moves... " />
+            <marker date="1529334143245" expanded="true" signature="2121:2215" placeholder="UPDATE room_... " />
+            <marker date="1529334143245" expanded="true" signature="2657:2731" placeholder="SELECT * FRO... room_members" />
+            <marker date="1529334143245" expanded="true" signature="2937:3076" placeholder="SELECT moves... moves" />
+            <marker date="1529334143245" expanded="true" signature="3348:3422" placeholder="SELECT user_... room_members" />
+            <marker date="1529334143245" expanded="true" signature="3698:3732" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143245" expanded="true" signature="3964:4031" placeholder="SELECT COUNT... " />
+            <marker date="1529334143245" expanded="true" signature="4417:4525" placeholder="UPDATE rooms... " />
+            <marker date="1529334143245" expanded="true" signature="4869:4916" placeholder="SELECT cell moves" />
+            <marker date="1529334143245" expanded="true" signature="5110:5180" placeholder="SELECT cell moves" />
+            <marker date="1529334143245" expanded="true" signature="5477:5547" placeholder="SELECT cell moves" />
+            <marker date="1529334143245" expanded="true" signature="5945:6026" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="6200:6290" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="6543:6624" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="6798:6888" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="7075:7135" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="7252:7312" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="8553:8601" placeholder="UPDATE rooms... " />
+            <marker date="1529334143245" expanded="true" signature="8804:8867" placeholder="SELECT COUNT... moves" />
+            <marker date="1529334143245" expanded="true" signature="9134:9173" placeholder="SELECT statu... rooms" />
+            <marker date="1529334143245" expanded="true" signature="9363:9427" placeholder="SELECT cell moves" />
+            <marker date="1529334143245" expanded="true" signature="9724:9768" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="9946:9978" placeholder="DELETE FROM " />
+            <marker date="1529334143245" expanded="true" signature="10215:10264" placeholder="DELETE FROM " />
+            <marker date="1529334143245" expanded="true" signature="10455:10509" placeholder="SELECT sign room_members" />
+            <marker date="1529334143245" expanded="true" signature="10775:10819" placeholder="UPDATE users... " />
+            <marker date="1529334143245" expanded="true" signature="11080:11164" placeholder="INSERT INTO room_members... " />
+            <marker date="1529334143245" expanded="true" signature="11379:11460" placeholder="SELECT user_... room_members" />
+            <marker date="1529334143245" expanded="true" signature="11697:11768" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143245" expanded="true" signature="12097:12131" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143245" expanded="true" signature="12426:12516" placeholder="UPDATE rooms... " />
+            <marker date="1529334143245" expanded="true" signature="12757:12791" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143245" expanded="true" signature="14108:14155" placeholder="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/room/room.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-467">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1529334143244" expanded="true" signature="397:460" placeholder="SELECT * FRO... users" />
+            <marker date="1529334143244" expanded="true" signature="1171:1257" placeholder="INSERT INTO users... " />
+            <marker date="1529334143244" expanded="true" signature="1444:1478" placeholder="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1529334143244" expanded="true" signature="221:263" placeholder="SELECT * FRO... rooms" />
+            <marker date="1529334143244" expanded="true" signature="435:486" placeholder="INSERT INTO users_rooms... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/AccountController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/RoomController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/acl/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
