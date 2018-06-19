@@ -21,6 +21,15 @@ body {
 	text-transform: uppercase;
 }
 
+.login {
+	width: 300px;
+	margin: 0px auto;
+}
+
+.login .title {
+	
+}
+
 #timers{
  margin: 0px auto;
 }

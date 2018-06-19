@@ -23,4 +23,5 @@ abstract class Controller {
 			return new $path;
 		}
 	}
+
 }
